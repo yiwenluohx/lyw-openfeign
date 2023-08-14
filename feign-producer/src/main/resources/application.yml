@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: feign-producer
+  servlet:
+    multipart:
+      max-request-size: 2MB
+      max-file-size: 2MB
